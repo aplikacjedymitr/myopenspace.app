@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Breath Orbit</title>
+  <meta name="description" content="Breath Orbit – ćwiczenia oddechowe na spokój, skupienie i trening. Breathing exercises for calm, focus and training.">
+  <style>
+    :root {
+      --bg: #f5f7fc;
+      --card: #ffffff;
+      --text: #1b2033;
+      --muted: #5b6380;
+      --brand: #4a63d8;
+      --line: #e1e5f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1424;
+        --card: #1b2236;
+        --text: #e8ebf5;
+        --muted: #a5adc6;
+        --brand: #8fa4ff;
+        --line: #2b3450;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+    header img { width: 64px; height: 64px; border-radius: 16px; }
+    h1 { font-size: 2rem; margin: 0; }
+    .tagline { color: var(--muted); margin: 4px 0 0; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    ul { padding-left: 1.2em; margin: 8px 0; }
+    a { color: var(--brand); }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.png" alt="">
+    <div>
+      <h1>Breath Orbit</h1>
+      <p class="tagline">Znajdź swój spokój · Find your calm</p>
+    </div>
+  </header>
+
+  <section>
+    <p>Breath Orbit prowadzi przez ćwiczenia oddechowe na spokój, skupienie,
+      energię i trening sportowy, z jasnymi instrukcjami i wskazówkami
+      bezpieczeństwa.</p>
+    <p lang="en">Breath Orbit guides you through breathing exercises for calm,
+      focus, energy and sports training, with clear instructions and safety
+      notes.</p>
+  </section>
+
+  <section>
+    <ul>
+      <li><a href="delete-account/">Usuwanie konta · Deleting your account</a></li>
+    </ul>
+    <p>Kontakt · Contact:
+      <a href="mailto:contact@myopenspace.app">contact@myopenspace.app</a></p>
+  </section>
+</main>
+</body>
+</html>
